@@ -1,0 +1,40 @@
+body {
+  box-sizing: border-box;
+  font-family: Comic Sans MS, sans-serif;
+}
+
+.full-screen {
+  height: calc(100vh - 75px);
+  min-height: calc(100vh - 75px);
+}
+
+#feedback {
+  background-color: lightblue;
+  bottom: 5px;
+  line-height: 30px;
+  position: fixed;
+  right: 5px;
+  text-align: center;
+  width: 30px;
+}
+
+#sampleTbl {
+  border-collapse: collapse;
+  border-color: gray;
+  color: gray;
+}
+
+li {
+  padding: 1em;
+}
+
+p {
+  border: 4px dotted rgb(150, 150, 150);
+  padding: 1em;
+  margin: 1em;
+}
+
+.code {
+    font-family: monospace;
+    background-color: orange;
+}
